@@ -88,6 +88,6 @@ e.g. `./tetris -20 -21` or `./tetris -500 -100`
 
 😀 After all, even GPT suggested I do it this way.
 
-![GPTsuggestion](Images/GPTsuggestion.png)
+![GPTsuggestion](Images/GPTsuggestion_en.png)
 
 This project is licensed under the [MIT License](LICENSE). For more details, please refer to the `LICENSE` file。
