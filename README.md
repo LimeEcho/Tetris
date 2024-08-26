@@ -16,6 +16,8 @@ Visit this to read English version: [README_en.md](README_en.md).
 
 - [许可证](#许可证)
 
+- [联系方式](#联系方式)
+
 ## 简介
 
 🥱 暑假刚刚啃完《C程序设计语言》，挑战自己实现一个俄罗斯方块小游戏。
@@ -28,7 +30,7 @@ Visit this to read English version: [README_en.md](README_en.md).
 
 ## 功能
 
-💡 可以自定义游戏窗口大小（采用./tetris -x -y的格式)
+💡 可以自定义游戏窗口大小（采用`./tetris -x -y`的格式)
 
 e.g. `./tetris -20 -21` 或 `./tetris -500 -100`
 
@@ -91,3 +93,9 @@ e.g. `./tetris -20 -21` 或 `./tetris -500 -100`
 ![GPTsuggestion](Images/GPTsuggestion.png)
 
 此项目使用 [MIT License](LICENSE) 进行许可。详细信息请参见 `LICENSE` 文件。
+
+## 联系方式
+
+作者邮箱：yiguo.xfy@icloud.com
+
+bilibili账号名：Ts_小石灰

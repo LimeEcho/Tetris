@@ -16,6 +16,8 @@ Pure C Implementation of a TUI Tetris Game
 
 - [License](#License)
 
+- [Contact info](#Contact info)
+
 ## Introduction
 
 🥱 Just finished tackling *The C Programming Language* over the summer and challenged myself to create a Tetris game.
@@ -90,4 +92,10 @@ e.g. `./tetris -20 -21` or `./tetris -500 -100`
 
 ![GPTsuggestion](Images/GPTsuggestion_en.png)
 
-This project is licensed under the [MIT License](LICENSE). For more details, please refer to the `LICENSE` file。
+This project is licensed under the [MIT License](LICENSE). For more details, please refer to the `LICENSE` file.
+
+## Contact info
+
+E-mail: yiguo.xfy@icloud.com
+
+bilibili ID name: Ts_小石灰
