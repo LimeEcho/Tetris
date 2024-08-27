@@ -40,7 +40,7 @@ e.g. `./tetris -20 -21` 或 `./tetris -500 -100`
 
 ![customize_example](Images/customize_example.png)
 
-⚠️ 程序在运行时会运行stty -icanon与stty -echo等命令，在正常退出（非ctrl-c）退出时会复原，尽量不要强制退出。可以通过运行stty icanon与stty echo手动复原。
+⚠️ 程序在运行时会运行`stty -icanon`与`stty -echo`等命令，在正常退出（非ctrl-c）退出时会复原，尽量不要强制退出。可以通过运行`stty icanon`与`stty echo`手动复原。
 
 ![stty](Images/stty1.png)
 

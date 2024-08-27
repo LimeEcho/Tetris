@@ -40,7 +40,7 @@ e.g. `./tetris -20 -21` or `./tetris -500 -100`
 
 ![customize_example](Images/customize_example.png)
 
-⚠️ The program runs commands like stty -icanon and stty -echo during execution. These settings will be restored upon normal exit (not through Ctrl-C). Please avoid forcefully terminating the program. You can manually restore the settings by running stty icanon and stty echo.
+⚠️ The program runs commands like `stty -icanon` and `stty -echo` during execution. These settings will be restored upon normal exit (not through Ctrl-C). Please avoid forcefully terminating the program. You can manually restore the settings by running `stty icanon` and `stty echo`.
 
 ![stty](Images/stty1.png)
 
