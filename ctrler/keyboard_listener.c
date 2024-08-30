@@ -17,15 +17,15 @@ void *keyboard_listener (void *arg)
 	while (1){
 		fflush (stdin);
 		switch (getchar()){
-			case 'd':
+			case MOVELEFTKEY:
 				if (*R_move_possibility)
 					(*move_step) += MOVESTEP;
 				break;
-			case 'a':
+			case MOVERIGHTKEY:
 				if (*L_move_possibility)
 					(*move_step) -= MOVESTEP;
 				break;
-			case 'w':
+			case CHANGEBLOCKKEY:
 				if (*changing_state_possibility){
 					block_state++;
 					if (*bls)
@@ -49,10 +49,10 @@ void *keyboard_listener (void *arg)
 					}
 				}
 				break;
-			case 'f':
+			case FASTFALLKEY:
 				(*fast_falling) = FALLINGSPEED - FASTERFALLING;
 				break;
-			case 'q':
+			case QUITKEY:
 				event_handler (3);
 				break;
 		}

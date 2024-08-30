@@ -33,6 +33,11 @@ Blocks InitialBlocks(void);
 int rand_num_giver (int);
 int collision_testing (char *[], int *, Size, int *, int *, int *, int *);
 void *keyboard_listener(void*);
+#define MOVELEFTKEY 'a'
+#define MOVERIGHTKEY 'd'
+#define CHANGEBLOCKKEY 'w'
+#define FASTFALLKEY 'f'
+#define QUITKEY 'q'
 typedef struct {
 	int *move_step;
 	Blocks **bls;
